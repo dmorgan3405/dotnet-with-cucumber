@@ -1,4 +1,11 @@
-*/app/packages/*
-/app/packages/*
-!packages/repositories.config
-!packages/manual/
+bin/
+csx/
+obj/
+rcf/
+
+*.suo
+*.user
+
+packages/
+
+_ReSharper*/
