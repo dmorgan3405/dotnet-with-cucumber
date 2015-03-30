@@ -1,0 +1,4 @@
+*/app/packages/*
+/app/packages/*
+!packages/repositories.config
+!packages/manual/
