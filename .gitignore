@@ -9,3 +9,4 @@ rcf/
 packages/
 
 _ReSharper*/
+.idea/

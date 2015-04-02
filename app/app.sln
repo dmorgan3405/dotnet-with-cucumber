@@ -3,6 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example.mvc", "example.mvc\example.mvc.csproj", "{CB1D6408-F49D-42AC-8767-5ACD3CEFBEA8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E3E09C3F-1467-442D-AA23-C835EF3137DC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example.mvc.data", "example.mvc.data\example.mvc.data.csproj", "{7440963B-5F99-4D8A-98AC-9752A44AE448}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +22,10 @@ Global
 		{CB1D6408-F49D-42AC-8767-5ACD3CEFBEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB1D6408-F49D-42AC-8767-5ACD3CEFBEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB1D6408-F49D-42AC-8767-5ACD3CEFBEA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7440963B-5F99-4D8A-98AC-9752A44AE448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7440963B-5F99-4D8A-98AC-9752A44AE448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7440963B-5F99-4D8A-98AC-9752A44AE448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7440963B-5F99-4D8A-98AC-9752A44AE448}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
